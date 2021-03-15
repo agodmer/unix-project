@@ -1,7 +1,32 @@
 # répertoire des dossiers 
 /shared/projects/dubii2021/trainers/module1/project/fastq/09
 
-# question 1 :
-60 fichiers .fatsq.gz
+# question 1 : nombre de fichiers .fatsq.gz
+60 
 
-# question 2 :
+# question 2 : taille totale des fichiers
+#2,4G
+2402M
+
+# question 3 : chemin absolu du répertoire de travail
+/shared/projects/dubii2021/agodmer/unix-project
+
+# question 4 : Nom du job id
+# /!\ les fichiers sont en paired end
+15412521
+
+# question 5 : Question 5 : Sur quel noeud du cluster s’est exécuté le premier job step de votre job (première ligne renvoyée par la commande sacct et contenant map_reads.sh) ?
+cpu-node-8
+
+# question 6 :
+15412574
+
+# question 7 : Combien de fichiers .bam avez-vous générés avec le script map_reads_2.sh ?
+30
+
+# question 8 :Quel est le volume de données total (en Mo) des fichiers .bam que vous avez générés avec le script map_reads_2.sh ?
+#1,6G
+1581M
+
+# question 9 : Quel autre usage du job array aurait permis de ne sélectionner qu’un fichier .fastq.gz sur deux ?
+On avait aussi la possibilité d'utilisé un Job-array définit une séquence d’index avec un pas de séquence de 2
