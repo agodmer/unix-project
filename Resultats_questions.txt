@@ -1,0 +1,7 @@
+# répertoire des dossiers 
+/shared/projects/dubii2021/trainers/module1/project/fastq/09
+
+# question 1 :
+60 fichiers .fatsq.gz
+
+# question 2 :
